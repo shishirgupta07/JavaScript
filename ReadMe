@@ -1,0 +1,27 @@
+Rules :- It is implimented for 2 player
+Pig game is a simple dice game where the players take turns to roll a single die as many times as they wish,
+adding all roll results to running total,but losing their gained score for the turn if they roll 1.
+
+___________________________________________________________________________________________________________________
+About Game: In this game, User Interface (UI) contains user/player that can do three things, they are as follows:
+
+There will be two players in this game. At the start of the game Player 1 will be the CurrentPlayer and Player 2 will be the in-active one.
+Roll the dice: The current player has to roll the dice and then a random number will be generated. If current player gets any number other than 1 on the dice then that number will be added to the current score (initially the current score will be 0) and then the new score will be displayed under Current Score section.  Note: If the current player gets 1 on the dice then the players will be switched i.e. the current player will become in-active and vice-versa.
+Hold: If the current player clicks on HOLD, then the Current Score will be added to the Total Score. When the active player clicks the Hold button then the total score is evaluated. If the Total Score >= 100 then the current player wins else the players are switched.
+Reset: All the scores are set to 0 and Player 1 is set as the starting player (current player).
+_________________________________________________________________________________________________________________
+inside script folder
+HTML File (index.html)
+CSS File (style.css)
+JavaScript File (app file)
+Images (dice.png file)
+
+PigGame folder is main folder which contains all the important file related to our game.
+inside pigGame index.html file is the starting file for the game. 
+_________________________________________________________________________________________________________________
+All the mathematical, javaScript and DOM related code written into the app file.(this file name is App).
+for the CSS code available in the Style file.
+for the dice rolling all the image 1 to 6 available inside these folder.
+_________________________________________________________________________________________________________________
+default value for winning is 100 you can set as for your choice.(for setting value you can put your value into final value box).
+___________________________________________________________________________________________________________________
